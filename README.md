@@ -27,19 +27,7 @@ Ordered from easiest to hardest. Each build carries forward concepts from the ea
 | # | Build | Based on | Core concept | Status |
 |---|---|---|---|---|
 | 1 | [Snowflake ID generator](projects/01-snowflake) | Twitter | Bit manipulation, distributed IDs | ✅ Done |
-| 2 | Rate limiter (token bucket + sliding window) | Google / Shopify | Algorithms, Redis | ⏳ Next |
-| 3 | Circuit breaker + flaky service | Netflix | Resilience patterns, state machines | |
-| 4 | Cache stampede demo + singleflight | Facebook 2010 | Concurrency, thundering herd | |
-| 5 | Flash sale (fix overselling) | Shopify | Transactions, locking, race conditions | |
-| 6 | Feature flags + staged rollout | Knight Capital / CrowdStrike | Safe deploys | |
-| 7 | Backup + automated restore test | GitLab | Ops, Postgres, replication | |
-| 8 | Content-addressed store / mini-git | Dropbox | Hashing, storage | |
-| 9 | Regex engine (Thompson NFA) | Cloudflare | Automata, complexity | |
-| 10 | Shard router | Instagram / Figma | Sharding, routing | |
-| 11 | Mini DNS server | Facebook 2021 | Networking, binary protocols | |
-| 12 | Heartbleed in C + fuzzing | OpenSSL | Memory safety, security | |
-| 13 | LSM-tree KV store | Discord | Storage engines | |
-| 14 | Raft | GitHub 2018 | Distributed consensus | |
+
 
 ## How each build is taken further
 
