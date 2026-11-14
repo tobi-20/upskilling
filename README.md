@@ -47,8 +47,8 @@ Each project can be pushed through four levels:
 
 1. **Works:** a minimal correct implementation.
 2. **Measured:** tests, benchmarks and load tests, so I know the numbers.
-3. **Broken on purpose:** reproduce the original failure (kill nodes, skew clocks, partition the network) and show the fix surviving it.
-4. **Shipped:** an architecture diagram and a postmortem-style write-up.
+3. **Broken on purpose:** reproduce the original failure and show the fix surviving it.
+
 
 ## Running the code
 
@@ -62,6 +62,4 @@ go test ./...
 ## References
 
 - Martin Kleppmann, *Designing Data-Intensive Applications*
-- MIT 6.824 (Distributed Systems)
 - [danluu/post-mortems](https://github.com/danluu/post-mortems): a curated list of public postmortems
-- The Google SRE book (free online)
